@@ -1,3 +1,5 @@
+//Código escrito em Javascript
+
 class ControleRemoto {
   constructor(marca){
       this.marca = marca
