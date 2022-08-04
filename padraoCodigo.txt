@@ -1,0 +1,9 @@
+Structure patterns:
+
+Structure patterns ou padrões estruturais são padrões que visam a forma como as classes e objetos são formados para estruturar grandes projetos, para isso os padrões de classe utilizam a herança na composição de interfaces e implementações. Ao invés de compor interfaces ou implementações, os padrões estruturais de objetos descrevem maneiras de compor objetos para obter novas funcionalidades. Diferente do que acontece com a composição de hierarquia de classes estáticas, ela tem um versatilidade adquirida pela composição de objetos que tem a capacidade de mudar a composição em tempo de execução.  
+
+- Adapter: Padrão que converte uma interface de uma classe em uma nova interface esperada. Assim é aceitado o trabalho em conjuto de interfaces incompativeis, o que de outra forma não seria possivel. 
+
+- Flyweight: Padrão que foca no compartilhamento de objetos para uso eficiente de espaço, esses objetos são compartilhados pela sua eficiência e consistência. Os objetos flyweight podem ser abertamente compartilhados, pois seu estado não depende do contexto. 
+
+- Composite: Esse padrão descreve como construir uma hierarquia de classes composta por objetos primitivos e objetos compostos. Os objetos compostos permitem compor objetos primitivos e outros objetos compostos em estruturas arbitrariamente complexas.
